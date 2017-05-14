@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_now"
+            android:icon="@drawable/ic_play_circle_filled_black_24dp"
+            android:title="Sedang Main" />
+        <item
+            android:id="@+id/nav_up"
+            android:icon="@drawable/ic_file_upload_black_24dp"
+            android:title="Akan Segera Tayang" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_fingerprint_black_24dp"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

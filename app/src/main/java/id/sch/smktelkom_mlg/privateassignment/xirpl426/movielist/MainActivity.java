@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -12,6 +13,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+import id.sch.smktelkom_mlg.privateassignment.xirpl426.movielist.fragment.AboutFragment;
+import id.sch.smktelkom_mlg.privateassignment.xirpl426.movielist.fragment.HomeFragment;
+import id.sch.smktelkom_mlg.privateassignment.xirpl426.movielist.fragment.NowFragment;
+import id.sch.smktelkom_mlg.privateassignment.xirpl426.movielist.fragment.UpComingFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -79,23 +85,33 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        changePage(id);
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        return true;
+    }
 
-        } else if (id == R.id.nav_slideshow) {
+    private void changePage(int id) {
+        Fragment fragment = null;
 
-        } else if (id == R.id.nav_manage) {
+        if (id == R.id.nav_home) {
+            fragment = new HomeFragment();
+            setTitle("MainPage");
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_now) {
+            fragment = new NowFragment();
+            setTitle("Now Playing");
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_up) {
+            fragment = new UpComingFragment();
+            setTitle("Up Coming");
+
+        } else if (id == R.id.nav_about) {
+            fragment = new AboutFragment();
+            setTitle("About Us!");
 
         }
-
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commitNow();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
-        return true;
     }
 }
