@@ -1,6 +1,5 @@
 # MovieList
 
-<br>
 <h3>Nama Aplikasi :  </h3>
 Movie List
 <br><br>
