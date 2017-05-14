@@ -32,9 +32,6 @@ Navigation Drawer
 -
 <br><br>
 <h3>ScreenShoot :</h3>
-(https://cloud.githubusercontent.com/assets/22053684/26034886/0b5bff5c-38ee-11e7-925d-b987ef93e3cc.png)<br>
-(https://cloud.githubusercontent.com/assets/22053684/26034888/102b5b72-38ee-11e7-9d0e-02cd17f5bc41.png)<br>
-(https://cloud.githubusercontent.com/assets/22053684/26034893/205d65da-38ee-11e7-9bfc-69579888d6e2.png)
-
-<br>
-![4](https://cloud.githubusercontent.com/assets/22053684/26034902/6b20aff0-38ee-11e7-82d7-99010c9bc331.jpg)
+![screenshot_2017-05-14-21-31-34](https://cloud.githubusercontent.com/assets/22053684/26034992/aeb08f96-38ef-11e7-8cf7-0cd83d68c011.png)<br>
+![screenshot_2017-05-14-21-31-20](https://cloud.githubusercontent.com/assets/22053684/26034994/aeb6cb68-38ef-11e7-829b-663a2719700e.png)<br>
+![screenshot_2017-05-14-21-30-59](https://cloud.githubusercontent.com/assets/22053684/26034993/aeb37a30-38ef-11e7-8b0d-e09ca164cd39.png)
