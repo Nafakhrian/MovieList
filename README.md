@@ -1,19 +1,37 @@
 # MovieList
 
 <br>
-<h2>Nama Aplikasi :  </h2>
+<h3>Nama Aplikasi :  </h3>
 Movie List
 <br>
-<h2>Link APK Release : </h2>
+<h3>Link APK Release : </h3>
 
 <br>
-<h2>Identitas Siswa : </h2>
+<h3>Identitas : </h3>
 Nama Lengkap : Naufal Fakhrian
 Kelas / No urut : XI RPL 4 / 26
 NIS : -
 Angkatan : 24
 Asal Sekolah : SMK Telkom Malang
 <br>
-<h2>Alamat API yang digunakan pada Aplikasi : </h2>
+<h3>Alamat API yang digunakan : </h3>
 https://www.themoviedb.org/documentation/api
+<br>
+<h3>Navigasi yang digunakan :</h3>
+Navigation Drawer
+<br>
+<h3>Library dari Local Database :</h3>
+
+<br>
+<h3>Deskripsi singkat :</h3>
+
+<br>
+<h3>Kelebihan :</h3>
+
+<br>
+<h3>Library lain :</h3>
+
+<br>
+<h3>ScreenShoot :</h3>
+
 <br>
