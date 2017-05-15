@@ -58,7 +58,7 @@ public class NowFragment extends Fragment {
 
     private void downloadDataSource() {
         //String url = "https://newsapi.org/v1/sources?language=en";
-        String url = "https://api.themoviedb.org/3/movie/now_playing?api_key=b3d33e31e5a779cf4a466dd025e8ccf6";
+        String url = "https://api.themoviedb.org/3/movie/now_playing?api_key=0332c5b960c9cd82c1de2e30e11407a2";
 
         GsonGetRequest<SourcesResponse> myRequest = new GsonGetRequest<SourcesResponse>
                 (url, SourcesResponse.class, null, new Response.Listener<SourcesResponse>() {
