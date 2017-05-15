@@ -7,10 +7,10 @@ Movie List
 https://drive.google.com/open?id=0Bz1ujFGcUdw2TVkwSXpOdm9ZZVU
 <br><br>
 <h3>Identitas : </h3>
-Nama Lengkap : Naufal Fakhrian
-Kelas / No urut : XI RPL 4 / 26
-NIS : -
-Angkatan : 24
+Nama Lengkap : Naufal Fakhrian<br>
+Kelas / No urut : XI RPL 4 / 26<br>
+NIS : -<br>
+Angkatan : 24<br>
 Asal Sekolah : SMK Telkom Malang
 <br><br>
 <h3>Alamat API yang digunakan : </h3>
