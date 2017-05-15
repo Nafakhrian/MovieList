@@ -11,7 +11,6 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import id.sch.smktelkom_mlg.privateassignment.xirpl426.movielist.R;
 import id.sch.smktelkom_mlg.privateassignment.xirpl426.movielist.model.Source;
@@ -19,6 +18,7 @@ import id.sch.smktelkom_mlg.privateassignment.xirpl426.movielist.model.Source;
 /**
  * Created by ASUS on 5/14/2017.
  */
+
 public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder> {
     public static final String IMAGE_URL_BASE_PATH = "http://image.tmdb.org/t/p/w500";
     ArrayList<Source> list;
@@ -44,9 +44,9 @@ public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder
         Source source = list.get(position);
         holder.tvName.setText(source.title);
         holder.tvDesc.setText(source.overview);
-        //holder.itemView.setBackgroundColor(source.color);
+        holder.tvVote.setText(source.vote_average);
         Glide.with(context)
-                .load(IMAGE_URL_BASE_PATH + source.poster_path)
+                .load("http://image.tmdb.org/t/p/w500" + source.backdrop_path)
                 .into(holder.ivPoster);
     }
 
@@ -65,20 +65,14 @@ public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder
         ImageView ivPoster;
         TextView tvName;
         TextView tvDesc;
+        TextView tvVote;
 
         public ViewHolder(View itemView) {
             super(itemView);
+            ivPoster = (ImageView) itemView.findViewById(R.id.imageViewPoster);
             tvName = (TextView) itemView.findViewById(R.id.textViewName);
             tvDesc = (TextView) itemView.findViewById(R.id.textViewDesc);
-            ivPoster = (ImageView) itemView.findViewById(R.id.imageView);
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Source source = list.get(getAdapterPosition());
-                    List<String> sort = source.sortBysAvailable;
-                    mISourceAdapter.showArticles(source.id, source.title, sort.get(sort.size() - 1));
-                }
-            });
+            tvVote = (TextView) itemView.findViewById(R.id.textViewVote);
         }
     }
 }

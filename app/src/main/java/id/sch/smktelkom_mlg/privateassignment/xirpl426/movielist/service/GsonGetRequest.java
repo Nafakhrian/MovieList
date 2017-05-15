@@ -15,6 +15,7 @@ import java.util.Map;
 /**
  * Created by ASUS on 5/14/2017.
  */
+
 public class GsonGetRequest<T> extends Request<T> {
     private final Gson gson = new Gson();
     private final Class<T> clazz;
