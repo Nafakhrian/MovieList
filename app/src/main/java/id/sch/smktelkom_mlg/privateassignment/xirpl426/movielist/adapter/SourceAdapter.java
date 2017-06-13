@@ -24,6 +24,7 @@ public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder
     ArrayList<Source> list;
     ISourceAdapter mISourceAdapter;
     Context context;
+    Source source = list.get(position);
 
     public SourceAdapter(Context context, ArrayList<Source> list) {
         this.list = list;
@@ -41,7 +42,6 @@ public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Source source = list.get(position);
         holder.tvName.setText(source.title);
         holder.tvDesc.setText(source.overview);
         holder.tvVote.setText(source.vote_average);
