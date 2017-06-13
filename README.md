@@ -4,7 +4,7 @@
 Movie List
 <br><br>
 <h3>Link APK Release : </h3>
-https://drive.google.com/open?id=0Bz1ujFGcUdw2bWh4aE5qWmYtbzg
+https://drive.google.com/open?id=0B21_eARVd-_4UGVZc1l6Z3JXTzQ
 <br><br>
 <h3>Identitas : </h3>
 Nama Lengkap : Naufal Fakhrian<br>
